@@ -1,5 +1,7 @@
 # Bank Marketing Data
 
+Link to the data: 
+
 ## Overview 
 The Bank Marketing dataset, sourced from a Portuguese bank, contains information on a direct marketing campaign that aimed to convince clients to subscribe to a term deposit. It includes data on client demographics (e.g., age, job, marital status), details of the campaign (e.g., contact frequency, last contact day), and economic context (e.g., employment variation rate, consumer price index). The target variable indicates whether a client subscribed to the term deposit. This dataset, with around 45,000 entries, poses challenges due to its imbalanced nature, as most clients did not subscribe, making it useful for classification models that handle imbalanced data.
 
@@ -9,10 +11,10 @@ The Bank Marketing dataset, sourced from a Portuguese bank, contains information
 2. **job**: Type of job (categorical, e.g., "admin", "technician", "entrepreneur").
 3. **marital**: Marital status (categorical, e.g., "married", "single", "divorced").
 4. **education**: Education level (categorical, e.g., "primary", "secondary", "tertiary", "unknown").
-5. **default**: Has credit in default? (categorical, "yes" or "no").
-6. **balance**: Average yearly balance, in euros (numeric).
-7. **housing**: Has housing loan? (categorical, "yes" or "no").
-8. **loan**: Has personal loan? (categorical, "yes" or "no").
+* **default**: Has credit in default? (categorical, "yes" or "no").
+* **balance**: Average yearly balance, in euros (numeric).
+* **housing**: Has housing loan? (categorical, "yes" or "no").
+* **loan**: Has personal loan? (categorical, "yes" or "no").
 
 ### Related to the Last Contact of the Current Campaign
 
