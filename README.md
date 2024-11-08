@@ -43,3 +43,29 @@ The Bank Marketing dataset, sourced from a Portuguese bank, contains information
 ### Target Variable
 
 22. **y**: Has the client subscribed to a term deposit? (binary: "yes" or "no").
+
+
+| Feature             | Variable Type     | Python Type  | Range of Possible Values                                        |
+|---------------------|-------------------|--------------|-----------------------------------------------------------------|
+| age                 | Continuous        | int          | 18 to 95 (typical range, as it's client age)                    |
+| job                 | Categorical       | str          | 'admin', 'technician', 'entrepreneur', etc.                     |
+| marital             | Categorical       | str          | 'married', 'single', 'divorced'                                 |
+| education           | Categorical       | str          | 'primary', 'secondary', 'tertiary', 'unknown'                   |
+| default             | Binary            | str          | 'yes', 'no'                                                     |
+| balance             | Continuous        | float        | -8019.0 to 102127.0 (average yearly balance in euros)           |
+| housing             | Binary            | str          | 'yes', 'no'                                                     |
+| loan                | Binary            | str          | 'yes', 'no'                                                     |
+| contact             | Categorical       | str          | 'cellular', 'telephone'                                         |
+| day                 | Discrete          | int          | 1 to 31 (day of the month)                                      |
+| month               | Categorical       | str          | 'jan', 'feb', 'mar', ..., 'dec'                                 |
+| duration            | Continuous        | int          | 0 to 4918 (contact duration in seconds)                         |
+| campaign            | Discrete          | int          | 1 to 63 (number of contacts for this client in this campaign)   |
+| pdays               | Discrete          | int          | -1 to 999 (days since client was last contacted; -1 if never)   |
+| previous            | Discrete          | int          | 0 to 7 (number of contacts before this campaign)                |
+| poutcome            | Categorical       | str          | 'success', 'failure', 'unknown'                                 |
+| emp.var.rate        | Continuous        | float        | -3.4 to 1.4 (employment variation rate, quarterly)              |
+| cons.price.idx      | Continuous        | float        | 92.201 to 94.767 (consumer price index)                         |
+| cons.conf.idx       | Continuous        | float        | -50.8 to -26.9 (consumer confidence index)                      |
+| euribor3m           | Continuous        | float        | 0.635 to 5.045 (Euribor 3-month interest rate)                  |
+| nr.employed         | Continuous        | float        | 4963.6 to 5228.1 (number of employees, quarterly)               |
+| y                   | Binary            | str          | 'yes', 'no' (target variable indicating term deposit)           |
