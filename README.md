@@ -44,7 +44,10 @@ The Bank Marketing dataset, sourced from a Portuguese bank, contains information
 
 22. **y**: Has the client subscribed to a term deposit? (binary: "yes" or "no").
 
+---
 
+
+## Data Information
 | Feature             | Variable Type     | Python Type  | Range of Possible Values                                        |
 |---------------------|-------------------|--------------|-----------------------------------------------------------------|
 | age                 | Continuous        | int          | 18 to 95 (typical range, as it's client age)                    |
