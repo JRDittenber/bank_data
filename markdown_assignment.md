@@ -5,43 +5,44 @@ When using **linear regression** for predictive modeling, it's critical to valid
 ## Key Assumptions
 
 Linear regression assumes:
-1. **Linearity**: The relationship between predictors and the outcome is linear.
-2. **Independence**: Observations are independent of each other.
-3. **Homoscedasticity**: Constant variance of errors.
-4. **Normality**: Errors are normally distributed.
-5. **No Multicollinearity**: Predictors are not highly correlated with each other.
+1. [**Linearity**](#testing-linearity): The relationship between predictors and the outcome is linear.
+2. [**Independence**](#testing-independence): Observations are independent of each other.
+3. [**Homoscedasticity**](#checking-homoscedasticity): Constant variance of errors.
+4. [**Normality**](#testing-normality): Errors are normally distributed.
+5. [**No Multicollinearity**](#multicollinearity): Predictors are not highly correlated with each other.
 
 Each of these assumptions should be tested before relying on the model.
 
-### Testing Linearity
+### Testing Linearity {#testing-linearity}
 
 To test for linearity:
 - **Scatterplots** of each predictor against the outcome variable
 - **Residual vs. Fitted Plot**: Residuals should show no clear pattern.
 
-### Testing Independence
+### Testing Independence {#testing-independence}
 
 To verify independence:
 1. **Durbin-Watson Test**: Tests for autocorrelation.
 2. **Residuals vs. Time Plot**: Useful for time series data to check for patterns.
 
-### Checking Homoscedasticity
+### Checking Homoscedasticity {#checking-homoscedasticity}
 
 **Homoscedasticity** implies that residuals have constant variance across all levels of the predictor variables. Use:
 - Residuals vs. Fitted plot to visually inspect variance.
 - **Breusch-Pagan Test** to statistically check for heteroscedasticity.
 
-### Testing Normality
+### Testing Normality {#testing-normality}
 
 Normality can be assessed by examining the **distribution of residuals**:
 - **Histogram** or **QQ Plot** to check for approximate normal distribution.
 - **Shapiro-Wilk Test** as a statistical test for normality.
 
-### Multicollinearity
+### Multicollinearity {#multicollinearity}
 
 To test for multicollinearity:
 - Calculate the **Variance Inflation Factor (VIF)** for each predictor.
-- A high `VIF` (generally > 10) indicates potential multicollinearity problems.
+- A high VIF (generally > 10) indicates potential multicollinearity problems.
+
 
 
 ## Code Example in Python 
