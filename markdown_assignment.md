@@ -47,11 +47,11 @@ To test for multicollinearity:
 
 Testing and validating assumptions in **linear regression** is essential for building accurate models. Failing to validate these assumptions can lead to unreliable results.
 
-![Linear Regression Assumptions](https://www.example.com/image-link "Linear Regression Assumptions")
+![Linear Regression Assumptions](Capture.JPG)
 
 > "Assumptions are the foundation of reliable models. Verify them to ensure accurate predictions and interpretations."
 
 ## Further Reading
 
 For more details on linear regression assumptions, visit:
-- [Introduction to Linear Regression](https://www.statisticssolutions.com/what-is-linear-regression/)
+- [Introduction to Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
