@@ -13,31 +13,31 @@ Linear regression assumes:
 
 Each of these assumptions should be tested before relying on the model.
 
-### Testing Linearity {#testing-linearity}
+### Testing Linearity {\#testing-linearity}
 
 To test for linearity:
 - **Scatterplots** of each predictor against the outcome variable
 - **Residual vs. Fitted Plot**: Residuals should show no clear pattern.
 
-### Testing Independence {#testing-independence}
+### Testing Independence {\#testing-independence}
 
 To verify independence:
 1. **Durbin-Watson Test**: Tests for autocorrelation.
 2. **Residuals vs. Time Plot**: Useful for time series data to check for patterns.
 
-### Checking Homoscedasticity {#checking-homoscedasticity}
+### Checking Homoscedasticity {\#checking-homoscedasticity}
 
 **Homoscedasticity** implies that residuals have constant variance across all levels of the predictor variables. Use:
 - Residuals vs. Fitted plot to visually inspect variance.
 - **Breusch-Pagan Test** to statistically check for heteroscedasticity.
 
-### Testing Normality {#testing-normality}
+### Testing Normality {\#testing-normality}
 
 Normality can be assessed by examining the **distribution of residuals**:
 - **Histogram** or **QQ Plot** to check for approximate normal distribution.
 - **Shapiro-Wilk Test** as a statistical test for normality.
 
-### Multicollinearity {#multicollinearity}
+### Multicollinearity {\#multicollinearity}
 
 To test for multicollinearity:
 - Calculate the **Variance Inflation Factor (VIF)** for each predictor.
