@@ -1,6 +1,6 @@
 # Testing Assumptions in Linear Regression 
 
-When using **linear regression** for predictive modeling, it's critical to validate that certain assumptions hold. This helps ensure reliable and interpretable results.
+When using **linear regression** for predictive modeling, it's critical to validate that certain *assumptions* hold. This helps ensure *reliable* and *interpretable* results.
 
 ## Key Assumptions
 
@@ -43,6 +43,21 @@ To test for multicollinearity:
 - Calculate the **Variance Inflation Factor (VIF)** for each predictor.
 - A high `VIF` (generally > 10) indicates potential multicollinearity problems.
 
+
+## Code Example in Python 
+
+To generate a linear regression model in Python using the `statsmodels` library, use the following code:
+
+```python
+import statsmodels.api as sm
+
+# Assuming X is the predictor and y is the response variable
+X = sm.add_constant(X)  # Adds a constant term to the predictor
+model = sm.OLS(y, X).fit()  # Fit the model
+print(model.summary())  # Output the summary of the model
+
+```
+
 ## Summary
 
 Testing and validating assumptions in **linear regression** is essential for building accurate models. Failing to validate these assumptions can lead to unreliable results.
@@ -50,6 +65,7 @@ Testing and validating assumptions in **linear regression** is essential for bui
 ![Linear Regression Assumptions](Capture.JPG)
 
 > "Assumptions are the foundation of reliable models. Verify them to ensure accurate predictions and interpretations."
+
 
 ## Further Reading
 
